@@ -13,21 +13,15 @@ body {
 }
 
 /* MAIN HEADER */
-
 section.main .main__body__header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 32px;
-}
-
-section.main .main__body__header {
-    display: flex;
-    align-items: center;
     margin-left: 152px;
 }
 
-section.main .main__body__header header{
+section.main .main__body__header header {
     display: flex;
     align-items: center;
     font-family: "Raleway", sans-serif;
@@ -39,26 +33,24 @@ section.main .main__body__header header{
 
 section.main .main__body__header .main__header__buttons {
     display: flex;
-    gap: 32px;
-
-}
-
-section.main .main__body__header .main__header__buttons{
-    display: flex;
     font-family: "Raleway", sans-serif;
     gap: 32px;
     margin-right: 152px;
     font-size: 16px;
 }
 
-section.main .main__body__header .main__header__buttons a{
+section.main .main__body__header .main__header__buttons a {
     text-decoration: none;
     color: black;
 }
 
-/* MAIN BODY */
+section.main .main__body__header .main__header__buttons a:hover {
+    text-decoration: none;
+    color: #2A7AE4;
+}
 
-.main__body{
+/* MAIN BODY */
+.main__body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -66,7 +58,7 @@ section.main .main__body__header .main__header__buttons a{
     margin-left: 152px;
 }
 
-section.main .main__body .main__body_textos h1{
+section.main .main__body .main__body_textos h1 {
     font-family: "Raleway", sans-serif;
     font-size: 52px;
     font-weight: 700;
@@ -74,26 +66,25 @@ section.main .main__body .main__body_textos h1{
     color: var(--cor-fontes);
 }
 
-section.main .main__body .main__body_textos p{
+section.main .main__body .main__body_textos p {
     font-family: "Raleway", sans-serif;
     font-size: 22px;
     font-weight: 400;
-    text-align: left;    
+    text-align: left;
     color: var(--cor-fontes);
 }
 
-section.main .main__body .profile__imagem{
+section.main .main__body .profile__imagem {
     margin-right: 152px;
 }
 
-section.main .main__body .profile__imagem img{
+section.main .main__body .profile__imagem img {
     border-radius: 50%;
     width: 368px;
     height: 368px;
 }
 
-
-section.main .main__body .main__body__links{
+section.main .main__body .main__body__links {
     display: flex;
     flex-direction: row;
     font-family: "Raleway", sans-serif;
@@ -105,23 +96,28 @@ section.main .main__body .main__body__links{
     margin-top: 100px;
 }
 
-section.main .main__body .main__body__links a{
+section.main .main__body .main__body__links a {
     text-decoration: none;
     color: black;
 }
 
-section.main .main__body .main__body__links a img{
+section.main .main__body .main__body__links a:hover {
+    text-decoration: none;
+    color: #2A7AE4;
+    filter: sepia(100%) hue-rotate(190deg) saturate(500%);
+}
+
+section.main .main__body .main__body__links a img {
     margin-left: 4px;
 }
 
 /* ABOUT SECTION */
-
-section.about{
+section.about {
     background-color: var(--cor-secundaria);
     margin-top: 32px;
 }
 
-section.about .about__title{
+section.about .about__title {
     font-family: "Raleway", sans-serif;
     margin: 0px;
     font-size: 32px;
@@ -132,7 +128,7 @@ section.about .about__title{
     color: white;
 }
 
-section.about .about__paragraph{
+section.about .about__paragraph {
     width: 751px;
     margin: 0px;
     font-family: "Raleway", sans-serif;
@@ -145,15 +141,14 @@ section.about .about__paragraph{
     padding-top: 32px;
 }
 
-section.about img{
+section.about img {
     margin-left: 152px;
     padding-bottom: 64px;
     width: 200px;
 }
 
 /* SKILLS SECTION */
-
-section.skills{
+section.skills {
     color: var(--cor-fontes);
     font-family: "Raleway", sans-serif;
     display: flex;
@@ -165,13 +160,13 @@ section.skills{
     text-align: center;
 }
 
-section.skills .skills__line{
+section.skills .skills__line {
     display: flex;
     flex-direction: row;
     gap: 16px;
 }
 
-section.skills .skills__line .skills__box{
+section.skills .skills__line .skills__box {
     background-color: white;
     width: 176px;
     height: 174px;
@@ -182,15 +177,15 @@ section.skills .skills__line .skills__box{
     text-align: left;
 }
 
-section.skills .skills__line .skills__box li{
+section.skills .skills__line .skills__box li {
     list-style-type: none;
 }
 
-section.skills .skills__line .skills__box ul{
+section.skills .skills__line .skills__box ul {
     padding: 0px;
 }
 
-section.skills .skills__line .skills__box .skills__img{
+section.skills .skills__line .skills__box .skills__img {
     display: flex;
     width: 24px;
     height: 37px;
@@ -199,21 +194,19 @@ section.skills .skills__line .skills__box .skills__img{
     background-color: white;
 }
 
-
-section.skills .skills__line .skills__box .skills__img img{
+section.skills .skills__line .skills__box .skills__img img {
     background-color: white;
     color: white;
 }
 
-section.skills .skills__line .skills__box .skills__name{
+section.skills .skills__line .skills__box .skills__name {
     display: flex;
     margin-top: 8px;
     margin-left: 16px;
 }
 
 /* FORMAÇAO SECTION */
-
-section.formacao{
+section.formacao {
     margin-top: 88px;
     background-color: var(--cor-secundaria);
     display: flex;
@@ -223,7 +216,7 @@ section.formacao{
     padding-bottom: 88px;
 }
 
-section.formacao .formacao_title{
+section.formacao .formacao_title {
     margin-top: 82px;
     font-size: 32px;
     font-weight: 700;
@@ -231,7 +224,7 @@ section.formacao .formacao_title{
     color: var(--cor-primaria);
 }
 
-section.formacao .formacao_box_div{
+section.formacao .formacao_box_div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -240,7 +233,7 @@ section.formacao .formacao_box_div{
     margin-top: 32px;
 }
 
-section.formacao .formacao_box_div img{
+section.formacao .formacao_box_div img {
     background-color: rgb(255, 255, 255);
     width: 190px;
     height: 130px;
@@ -248,9 +241,14 @@ section.formacao .formacao_box_div img{
     padding-bottom: 78px;
     padding-right: 89px;
     padding-left: 89px;
+    transition: all .2s ease-in-out;
 }
 
-section.formacao .formacao_box_div h1{
+section.formacao .formacao_box_div img:hover {
+    transform: scale(1.03);
+}
+
+section.formacao .formacao_box_div h1 {
     color: white;
     font-family: "Raleway", sans-serif;
     font-size: 22px;
@@ -258,7 +256,7 @@ section.formacao .formacao_box_div h1{
     text-align: left;
 }
 
-section.formacao .formacao_box_div p{
+section.formacao .formacao_box_div p {
     color: white;
     font-family: "Raleway", sans-serif;
     font-size: 16px;
@@ -268,8 +266,7 @@ section.formacao .formacao_box_div p{
 }
 
 /* PROJETOS SECTION */
-
-section.projetos{
+section.projetos {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -277,7 +274,7 @@ section.projetos{
     margin-top: 32px;
 }
 
-section.projetos h1{ 
+section.projetos h1 {
     color: #464646;
     font-family: "Raleway", sans-serif;
     font-size: 32px;
@@ -287,33 +284,32 @@ section.projetos h1{
     margin-top: 32px;
 }
 
-section.projetos .box__dos__projetos{
+section.projetos .box__dos__projetos {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
     gap: 54px;
 }
 
-
-section.projetos .box__dos__projetos .projetos__box{
+section.projetos .box__dos__projetos .projetos__box {
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
     gap: 16px;
 }
 
-section.projetos .box__dos__projetos .projetos__box img{
+section.projetos .box__dos__projetos .projetos__box img {
     width: 752px;
     height: 406px;
     box-shadow: 0px 4px 4px 0px #00000040;
 }
 
-section.projetos .box__dos__projetos .projetos__box .projetos__box__lateral{
+section.projetos .box__dos__projetos .projetos__box .projetos__box__lateral {
     flex-direction: column;
 }
 
-section.projetos .box__dos__projetos .projetos__box .projetos__box__lateral .projetos__box__title{
+section.projetos .box__dos__projetos .projetos__box .projetos__box__lateral .projetos__box__title {
     font-family: "Raleway", sans-serif;
     font-size: 22px;
     font-weight: 700;
@@ -321,7 +317,7 @@ section.projetos .box__dos__projetos .projetos__box .projetos__box__lateral .pro
     text-align: left;
 }
 
-section.projetos .box__dos__projetos .projetos__box .projetos__box__lateral .projetos__box__subtitle{
+section.projetos .box__dos__projetos .projetos__box .projetos__box__lateral .projetos__box__subtitle {
     font-family: "Raleway", sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -329,14 +325,14 @@ section.projetos .box__dos__projetos .projetos__box .projetos__box__lateral .pro
     text-align: left;
 }
 
-section.projetos .box__dos__projetos .projetos__box .projetos__box__lateral .projetos__box__lateral__buttons{
+section.projetos .box__dos__projetos .projetos__box .projetos__box__lateral .projetos__box__lateral__buttons {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 16px;
 }
 
-section.projetos .box__dos__projetos .projetos__box .projetos__box__lateral .projetos__box__lateral__buttons .botao_repositorio{
+section.projetos .box__dos__projetos .projetos__box .projetos__box__lateral .projetos__box__lateral__buttons .botao_repositorio {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -349,9 +345,16 @@ section.projetos .box__dos__projetos .projetos__box .projetos__box__lateral .pro
     width: 116px;
     height: 51px;
     text-decoration: none;
+    transition: all .2s ease-in-out;
 }
 
-section.projetos .box__dos__projetos .projetos__box .projetos__box__lateral .projetos__box__lateral__buttons .botao_demo{
+section.projetos .box__dos__projetos .projetos__box .projetos__box__lateral .projetos__box__lateral__buttons .botao_repositorio:hover {
+    transform: scale(1.05);
+    background-color: #2A7AE4;
+    color: white;
+}
+
+section.projetos .box__dos__projetos .projetos__box .projetos__box__lateral .projetos__box__lateral__buttons .botao_demo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -365,11 +368,15 @@ section.projetos .box__dos__projetos .projetos__box .projetos__box__lateral .pro
     width: 116px;
     height: 51px;
     text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+section.projetos .box__dos__projetos .projetos__box .projetos__box__lateral .projetos__box__lateral__buttons .botao_demo:hover {
+    transform: scale(1.05);
 }
 
 /* CONTATOS SECTION */
-
-section.contatos{
+section.contatos {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -380,28 +387,26 @@ section.contatos{
     background-color: var(--cor-secundaria);
 }
 
-
-
-section.contatos h1{
+section.contatos h1 {
     color: var(--cor-primaria);
     font-family: "Raleway", sans-serif;
     display: flex;
     font-size: 32px;
 }
 
-section.contatos .contatos_display{
+section.contatos .contatos_display {
     display: flex;
     flex-direction: row;
 }
 
-section.contatos .contatos__form h1{
+section.contatos .contatos__form h1 {
     color: var(--cor-primaria);
     border-radius: 10%;
     margin: 0px;
     margin-top: 125px;
 }
 
-section.contatos .contatos__form p{
+section.contatos .contatos__form p {
     margin-top: 10px;
     color: var(--cor-primaria);
     font-family: "Raleway", sans-serif;
@@ -409,74 +414,80 @@ section.contatos .contatos__form p{
     border-radius: 10%;
 }
 
-section.contatos .contatos__form .formcontato__form{
+section.contatos .contatos__form .formcontato__form {
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
 
-section.contatos .contatos__form .formcontato__input{
+section.contatos .contatos__form .formcontato__input {
     width: 656px;
     height: 56px;
 }
 
-
 .feedback-input {
-    color:white;
+    color: white;
     font-family: Helvetica, Arial, sans-serif;
-    font-weight:500;
+    font-weight: 500;
     font-size: 18px;
     border-radius: 5px;
     line-height: 22px;
     background-color: transparent;
-    border:2px solid #ffffff;
+    border: 2px solid #ffffff;
     transition: all 0.3s;
     padding: 13px;
     margin-bottom: 15px;
-    width:100%;
+    width: 100%;
     box-sizing: border-box;
-    outline:0;
-  }
+    outline: 0;
+}
 
-  .feedback-input::placeholder{
+.feedback-input::placeholder {
     color: rgb(199, 199, 199);
-  }
-  
-  .feedback-input:focus { border:2px solid #ffffff; }
-  
-  textarea {
+}
+
+.feedback-input:focus {
+    border: 2px solid #ffffff;
+}
+
+textarea {
     height: 150px;
     line-height: 150%;
-    resize:vertical;
+    resize: vertical;
     color: white;
-  }
-  
-  [type="submit"] {
+}
+
+[type="submit"] {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     width: 100%;
-    background:#ffffff;
-    border-radius:5px;
-    border:0;
-    cursor:pointer;
-    color:rgb(0, 0, 0);
-    font-size:24px;
-    padding-top:10px;
-    padding-bottom:10px;
+    background: #ffffff;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     transition: all 0.3s;
-    margin-top:-4px;
-    font-weight:700;
-  }
-  [type="submit"]:hover { background:#ffffff; }
+    margin-top: -4px;
+    font-weight: 700;
+    transition: all .2s ease-in-out;
+}
 
-  footer{
+[type="submit"]:hover {
+    background: #ffffff;
+    transform: scale(1.03);
+}
+
+footer {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  .button_scrollup{
+.button_scrollup {
     position: fixed;
     display: flex;
     align-items: end;
@@ -484,18 +495,20 @@ section.contatos .contatos__form .formcontato__input{
     bottom: 30px;
     right: 30px;
     border: 0;
-  }
-  .scroll_top_button{
+}
+
+.scroll_top_button {
     display: flex;
     border-radius: 50%;
+    border: 0px;
     width: 50px;
     height: 50px;
     align-items: center;
     justify-content: center;
     margin-left: auto;
-  }
+}
 
-  .scroll_top_button img{
+.scroll_top_button img {
     width: 15px;
     height: 15px;
-  }
+}
